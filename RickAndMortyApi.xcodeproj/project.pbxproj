@@ -14,7 +14,8 @@
 		002D33FF286A17940097AF74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002D33FD286A17940097AF74 /* LaunchScreen.storyboard */; };
 		002D3407286A17B00097AF74 /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D3406286A17B00097AF74 /* Characters.swift */; };
 		002D3409286A1BFB0097AF74 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D3408286A1BFB0097AF74 /* MainTableViewController.swift */; };
-		00E8024D286A499900C33B27 /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8024C286A499900C33B27 /* CharacterTableViewCell.swift */; };
+		00E80250286A4C2A00C33B27 /* CharactersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8024E286A4C2A00C33B27 /* CharactersTableViewCell.swift */; };
+		00E80251286A4C2A00C33B27 /* CharactersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00E8024F286A4C2A00C33B27 /* CharactersTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +28,8 @@
 		002D3400286A17940097AF74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		002D3406286A17B00097AF74 /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
 		002D3408286A1BFB0097AF74 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
-		00E8024C286A499900C33B27 /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
+		00E8024E286A4C2A00C33B27 /* CharactersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersTableViewCell.swift; sourceTree = "<group>"; };
+		00E8024F286A4C2A00C33B27 /* CharactersTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharactersTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +70,8 @@
 				002D3400286A17940097AF74 /* Info.plist */,
 				002D3406286A17B00097AF74 /* Characters.swift */,
 				002D3408286A1BFB0097AF74 /* MainTableViewController.swift */,
-				00E8024C286A499900C33B27 /* CharacterTableViewCell.swift */,
+				00E8024E286A4C2A00C33B27 /* CharactersTableViewCell.swift */,
+				00E8024F286A4C2A00C33B27 /* CharactersTableViewCell.xib */,
 			);
 			path = RickAndMortyApi;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 				002D33FF286A17940097AF74 /* LaunchScreen.storyboard in Resources */,
 				002D33FC286A17940097AF74 /* Assets.xcassets in Resources */,
 				002D33FA286A17930097AF74 /* Main.storyboard in Resources */,
+				00E80251286A4C2A00C33B27 /* CharactersTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +150,7 @@
 			files = (
 				002D3409286A1BFB0097AF74 /* MainTableViewController.swift in Sources */,
 				002D33F3286A17930097AF74 /* AppDelegate.swift in Sources */,
-				00E8024D286A499900C33B27 /* CharacterTableViewCell.swift in Sources */,
+				00E80250286A4C2A00C33B27 /* CharactersTableViewCell.swift in Sources */,
 				002D33F5286A17930097AF74 /* SceneDelegate.swift in Sources */,
 				002D3407286A17B00097AF74 /* Characters.swift in Sources */,
 			);
