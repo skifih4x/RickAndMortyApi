@@ -9,8 +9,6 @@ import UIKit
 
 class MainTableViewController: UITableViewController {
     
-    let urlString = "https://rickandmortyapi.com/api/character"
-    
     var characters = [Characters]()
     
     override func viewDidLoad() {
@@ -39,13 +37,14 @@ class MainTableViewController: UITableViewController {
 //MARK: - Networking
 extension MainTableViewController {
     func fetchCharacter() {
-        guard let url = URL(string: urlString) else { return }
+        guard let url = URL(string: Link.urlString.rawValue) else { return }
         
         URLSession.shared.dataTask(with: url) { data, _, error in
             guard let data = data else {
                 print(error?.localizedDescription ?? "Error")
                 return
             }
+            print(data)
             do {
                 let character = try JSONDecoder().decode(Result.self, from: data)
                 DispatchQueue.main.async {

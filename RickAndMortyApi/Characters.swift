@@ -15,3 +15,7 @@ struct Characters: Decodable {
 struct Result: Decodable {
     let results: [Characters]
 }
+
+enum Link: String {
+    case urlString = "https://rickandmortyapi.com/api/character"
+}
